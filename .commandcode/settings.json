@@ -16,7 +16,12 @@
       "Shell(sleep:*)",
       "Shell(curl -s -m 2 http://127.0.0.1:9222/json/version > /dev/null)",
       "Shell(curl -s -m 2 http://127.0.0.1:5173/ > /dev/null)",
-      "Shell(node -e JSON.parse(require('fs').readFileSync('src/features/quiz/data/data.json','utf8')); console.log('data.json OK'))"
+      "Shell(node -e JSON.parse(require('fs').readFileSync('src/features/quiz/data/data.json','utf8')); console.log('data.json OK'))",
+      "Shell(npm:*)",
+      "Shell(ls node_modules/@tanstack/router-devtools/dist/esm/ 2>/dev/null; echo \"---\"; grep -rn \"NODE_ENV\\|import.meta.env\\|production\" node_modules/@tanstack/router-devtools/dist/esm/*.js 2>/dev/null | head -20)",
+      "Shell(rm:*)",
+      "Shell(grep:*)",
+      "Shell(echo:*)"
     ],
     "deny": [],
     "defaultMode": "default"

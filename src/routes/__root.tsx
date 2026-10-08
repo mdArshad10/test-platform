@@ -1,7 +1,14 @@
 import { createRootRoute, Outlet } from "@tanstack/react-router"
-import { TanStackRouterDevtools } from "@tanstack/router-devtools"
-import { Suspense } from "react"
+import { lazy, Suspense } from "react"
 import { RootErrorBoundary } from "@/error-boundaries"
+
+const TanStackRouterDevtools = import.meta.env.PROD
+  ? () => null
+  : lazy(() =>
+      import("@tanstack/router-devtools").then((mod) => ({
+        default: mod.TanStackRouterDevtools,
+      })),
+    )
 
 function RootSuspenseFallback() {
   return <div>Loading…</div>
@@ -13,7 +20,9 @@ function RootLayout() {
       <Suspense fallback={<RootSuspenseFallback />}>
         <Outlet />
       </Suspense>
-      <TanStackRouterDevtools />
+      <Suspense>
+        <TanStackRouterDevtools />
+      </Suspense>
     </RootErrorBoundary>
   )
 }
@@ -21,4 +30,3 @@ function RootLayout() {
 export const Route = createRootRoute({
   component: RootLayout,
 })
-

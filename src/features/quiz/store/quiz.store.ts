@@ -10,6 +10,23 @@ import type {
   QuizResult,
 } from "../types/quiz.types"
 
+function shuffle<T>(items: readonly T[]): T[] {
+  const copy = [...items]
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[copy[i], copy[j]] = [copy[j], copy[i]]
+  }
+  return copy
+}
+
+function prepareQuestions(questions: Question[]): Question[] {
+  return shuffle(questions).map((question) => {
+    const correctOption = question.options[question.answer]
+    const options = shuffle(question.options)
+    return { ...question, options, answer: options.indexOf(correctOption) }
+  })
+}
+
 export function getQuestionStatus(
   answers: Record<string, number>,
   marked: Record<string, boolean>,
@@ -101,7 +118,7 @@ export const useQuizStore = create<QuizState>()(
 
       loadQuiz: (data) =>
         set({
-          questions: data.questions,
+          questions: prepareQuestions(data.questions),
           meta: data.meta,
           phase: "idle",
           currentIndex: 0,
