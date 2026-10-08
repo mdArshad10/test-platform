@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "title": "General Knowledge Mock Test",
+    "subject": "General Knowledge",
+    "durationMinutes": 30,
+    "marksPerQuestion": 1,
+    "negativeMarking": 0
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "chapter": 1,
+      "topic": "Scientific Method",
+      "highYield": true,
+      "question": "Which is the correct order of steps in the scientific method?",
+      "options": [
+        "Observe → Question → Guess → Test → Analyse",
+        "Guess → Observe → Test → Question → Analyse",
+        "Test → Guess → Observe → Analyse → Question",
+        "Question → Test → Observe → Guess → Analyse"
+      ],
+      "answer": 0,
+      "explanation": "Pehle hum kuch interesting observe karte hain, phir uske baare mein question sochte hain. Uske baad ek possible answer guess karte hain, use experiment se test karte hain, aur aakhir mein results analyse karte hain. Order galat hua toh method kaam nahi karega.",
+      "mnemonic": "O-Q-G-T-A → 'Oye Queen, Genius Tha Aaj!' (Observe, Question, Guess, Test, Analyse)."
+    },
+    {
+      "id": "q2",
+      "chapter": 1,
+      "topic": "Scientific Method",
+      "highYield": false,
+      "question": "Your pen stops writing. You guess that the ink has finished, so you open the pen and check the refill. Which step of the scientific method is 'opening the pen to check the refill'?",
+      "options": [
+        "Observing",
+        "Guessing the answer",
+        "Testing the guess",
+        "Analysing the results"
+      ],
+      "answer": 2,
+      "explanation": "Guess toh sirf dimaag mein hota hai. Jab tum refill kholkar actually check karte ho ki ink hai ya nahi, woh guess ko test karna hai. Result dekhkar decide karna ki guess sahi tha ya galat, woh analyse karna hota hai.",
+      "mnemonic": "Guess = dimaag ka kaam, Test = haath ka kaam. Refill kholna = haath ka kaam = Test."
+    },
+    {
+      "id": "q3",
+      "chapter": 1,
+      "topic": "Wonderful World of Science",
+      "highYield": false,
+      "question": "According to the chapter, what is the first and most important thing needed to learn science well?",
+      "options": [
+        "Memorising all the facts and figures",
+        "Having a big, expensive laboratory",
+        "Working alone without asking anyone",
+        "Being curious and observing keenly"
+      ],
+      "answer": 3,
+      "explanation": "Science sirf facts ratne ya experiments karne ka naam nahi hai. Sabse pehle curiosity chahiye, yaani 'kyun?' aur 'kaise?' poochna, aur apne aas-paas ko dhyaan se observe karna.",
+      "mnemonic": "Book ka naam hi 'Curiosity' hai. Answer toh title mein hi chhupa hai!"
+    },
+    {
+      "id": "q4",
+      "chapter": 2,
+      "topic": "Diversity in the Living World",
+      "highYield": true,
+      "question": "The large variety of plants and animals around us is called ______.",
+      "options": ["Adaptation", "Biodiversity", "Habitat", "Grouping"],
+      "answer": 1,
+      "explanation": "Bio matlab life aur diversity matlab variety. Poori duniya mein jo alag-alag tarah ke paude aur jaanwar hain, unko milakar biodiversity kehte hain. Alag regions ki biodiversity alag hoti hai kyunki wahan ka environment alag hota hai.",
+      "mnemonic": "Bio (jeevan) + Diversity (variety) = Jeevan ki variety."
+    },
+    {
+      "id": "q5",
+      "chapter": 2,
+      "topic": "Diversity in the Living World",
+      "highYield": true,
+      "question": "Plants are grouped into herbs, shrubs and trees on the basis of their ______.",
+      "options": [
+        "Height, type of stem and branching pattern",
+        "Colour of the flowers",
+        "Taste of the fruits",
+        "Number of seeds in the fruit"
+      ],
+      "answer": 0,
+      "explanation": "Herbs chhote hote hain aur unka stem narm hota hai. Shrubs medium height ke hote hain aur unki kai branches hoti hain. Trees lambe hote hain aur unka stem mota aur majboot hota hai. Yeh grouping height, stem aur branching dekhkar hoti hai.",
+      "mnemonic": "H-S-T = Herb chhota, Shrub beech ka, Tree bada. Height se hi grouping hoti hai."
+    },
+    {
+      "id": "q6",
+      "chapter": 2,
+      "topic": "Monocots and Dicots",
+      "highYield": true,
+      "question": "Which pair of features correctly describes a dicot plant?",
+      "options": [
+        "Parallel venation and fibrous roots",
+        "Parallel venation and taproot",
+        "Reticulate venation and fibrous roots",
+        "Reticulate venation and taproot"
+      ],
+      "answer": 3,
+      "explanation": "Dicot plants mein leaf par jaal jaisi veins hoti hain (reticulate venation) aur taproot hoti hai, jaise chickpea (chana). Monocot plants mein parallel venation aur fibrous roots hoti hain, jaise wheat (gehu).",
+      "mnemonic": "Dicot = Deep taproot + Jaal (net) jaisi veins. Monocot = Mono-straight lines + baalon jaisi fibrous roots."
+    },
+    {
+      "id": "q7",
+      "chapter": 2,
+      "topic": "Adaptation",
+      "highYield": true,
+      "question": "Special features that help plants and animals survive in their habitat are called ______.",
+      "options": ["Biodiversity", "Venation", "Adaptations", "Constellations"],
+      "answer": 2,
+      "explanation": "Har jeev apne environment ke hisaab se khud ko dhaalta hai. Jaise camel ke lambe pair aur chaude hooves ret par chalne mein madad karte hain. Aise features ko adaptation kehte hain.",
+      "mnemonic": "Adapt = Apne aap ko Dhaalna (mould karna)."
+    },
+    {
+      "id": "q8",
+      "chapter": 2,
+      "topic": "Adaptation",
+      "highYield": false,
+      "question": "A camel living in the cold desert generally has how many humps?",
+      "options": ["No hump", "One hump", "Two humps", "Three humps"],
+      "answer": 2,
+      "explanation": "Hot desert (Rajasthan) ke camel ke ek hump hota hai, aur cold desert (jaise Ladakh) ke camel ke do humps hote hain. Humps mein camel khana store karta hai kyunki registan mein khana aasaani se nahi milta.",
+      "mnemonic": "Cold = Couple of humps (2). Hot = Hunch of one (1)."
+    },
+    {
+      "id": "q9",
+      "chapter": 3,
+      "topic": "Nutrients",
+      "highYield": true,
+      "question": "Which nutrients are the main (primary) sources of energy in our food?",
+      "options": [
+        "Carbohydrates and fats",
+        "Proteins and vitamins",
+        "Minerals and water",
+        "Vitamins and roughage"
+      ],
+      "answer": 0,
+      "explanation": "Roti, chawal, aloo (carbohydrates) aur ghee, tel, nuts (fats) humein kaam karne ki energy dete hain. Isliye inhe energy-giving nutrients kehte hain. Proteins ka main kaam body banana hai.",
+      "mnemonic": "Carbs + Fats = Gaadi ka petrol (energy). Protein = Pehelwan banane wala."
+    },
+    {
+      "id": "q10",
+      "chapter": 3,
+      "topic": "Nutrients",
+      "highYield": true,
+      "question": "Which nutrients are called body-building nutrients?",
+      "options": ["Carbohydrates", "Proteins", "Fats", "Roughage"],
+      "answer": 1,
+      "explanation": "Proteins hamari body ke growth aur repair ke liye zaroori hain. Dal, doodh, paneer, anda aur soya mein protein milta hai. Isliye inhe body-building nutrients kehte hain.",
+      "mnemonic": "P for Protein = P for Pehelwan (muscle banane wala)."
+    },
+    {
+      "id": "q11",
+      "chapter": 3,
+      "topic": "Food Tests",
+      "highYield": false,
+      "question": "A few drops of iodine solution turn a food item blue-black. What does this show?",
+      "options": [
+        "Fat is present",
+        "Protein is present",
+        "Vitamin C is present",
+        "Starch is present"
+      ],
+      "answer": 3,
+      "explanation": "Iodine solution starch ke saath blue-black colour deta hai. Agar roti ya aloo par iodine ki boondein daalne se neela-kaala colour aaye, toh matlab usme starch (carbohydrate) hai.",
+      "mnemonic": "Iodine + Starch = Neela-Kaala. 'Aloo pe Iodine, rang Neela-Kaala'."
+    },
+    {
+      "id": "q12",
+      "chapter": 3,
+      "topic": "Deficiency Diseases",
+      "highYield": true,
+      "question": "Sailors on long voyages got bleeding and swollen gums, and lemons and oranges cured them. Which vitamin was missing from their food?",
+      "options": ["Vitamin C", "Vitamin D", "Vitamin B1", "Iron"],
+      "answer": 0,
+      "explanation": "Bleeding aur swollen gums scurvy ke symptoms hain, jo Vitamin C ki kami se hota hai. Nimbu, santra, amla aur guava mein Vitamin C bharpoor hota hai. Isliye lemon-orange khane se sailors theek ho gaye.",
+      "mnemonic": "ScurvY → C. Citrus fruits (nimbu, santra) → Vitamin C."
+    },
+    {
+      "id": "q13",
+      "chapter": 3,
+      "topic": "Deficiency Diseases",
+      "highYield": true,
+      "question": "Swelling at the front of the neck (goitre) is caused by the deficiency of ______.",
+      "options": ["Iron", "Iodine", "Calcium", "Vitamin C"],
+      "answer": 1,
+      "explanation": "Pahadi aur northern plains ke kuch hisson ki mitti mein iodine kam tha, jisse goitre hota tha. Isliye sarkar ne iodised salt banwaya. Iodised salt khane se yeh problem kaafi kam ho gayi.",
+      "mnemonic": "Goitre = Gala phoola, Iodine bhoola. Iodine ka source = iodised namak."
+    },
+    {
+      "id": "q14",
+      "chapter": 3,
+      "topic": "Deficiency Diseases",
+      "highYield": false,
+      "question": "Soft and bent bones (rickets) are caused by the deficiency of which vitamin?",
+      "options": ["Vitamin C", "Vitamin B1", "Iodine", "Vitamin D"],
+      "answer": 3,
+      "explanation": "Vitamin D body ko calcium absorb karne mein madad karta hai, jisse haddiyan majboot rehti hain. Iska deficiency hone par rickets hota hai. Dhoop, doodh, makkhan, machhli aur anda se Vitamin D milta hai.",
+      "mnemonic": "Rickets ko Dhoop chahiye. R → D (Rickets → Vitamin D)."
+    },
+    {
+      "id": "q15",
+      "chapter": 3,
+      "topic": "Deficiency Diseases",
+      "highYield": false,
+      "question": "A person feels weak and short of breath because of anaemia. Which mineral is lacking in their diet?",
+      "options": ["Calcium", "Iodine", "Iron", "Vitamin C"],
+      "answer": 2,
+      "explanation": "Iron khoon (blood) ka important component hai. Iron ki kami se anaemia hota hai, jisme kamzori aur saans phoolna jaise symptoms aate hain. Palak, chukandar (beetroot) aur anaar iron ke achhe sources hain.",
+      "mnemonic": "Iron = Lohe jaisa strong khoon. Palak aur chukandar khao!"
+    },
+    {
+      "id": "q16",
+      "chapter": 4,
+      "topic": "Magnets",
+      "highYield": true,
+      "question": "Which of these objects will be attracted towards a magnet?",
+      "options": [
+        "An iron nail",
+        "A plastic ruler",
+        "A wooden spoon",
+        "A rubber eraser"
+      ],
+      "answer": 0,
+      "explanation": "Magnetic materials woh hote hain jo magnet ki taraf kheenchte hain, jaise iron. Plastic, lakdi aur rubber non-magnetic materials hain, yaani magnet inhe attract nahi karta.",
+      "mnemonic": "Magnet ko Lohe se pyaar hai. Iron = Magnetic."
+    },
+    {
+      "id": "q17",
+      "chapter": 4,
+      "topic": "Magnets",
+      "highYield": true,
+      "question": "When two magnets are brought close to each other, what happens?",
+      "options": [
+        "North and North attract each other",
+        "South and South attract each other",
+        "North and South repel each other",
+        "North and South attract each other"
+      ],
+      "answer": 3,
+      "explanation": "Unlike poles (North-South) ek doosre ko attract karte hain, aur like poles (North-North ya South-South) ek doosre ko repel karte hain, yaani door dhakelte hain.",
+      "mnemonic": "Unlike = Love (attract). Like = Fight (repel). Opposites attract!"
+    },
+    {
+      "id": "q18",
+      "chapter": 4,
+      "topic": "Magnets",
+      "highYield": false,
+      "question": "A bar magnet freely suspended from a thread comes to rest along which direction?",
+      "options": [
+        "East-West",
+        "North-South",
+        "Up-Down",
+        "It points in a random direction each time"
+      ],
+      "answer": 1,
+      "explanation": "Freely latkaya hua magnet hamesha North-South direction mein ruk jaata hai. Isi principle par magnetic compass kaam karta hai, aur uski needle bhi North-South direction batati hai. Jab tufaan mein taare nahi dikhte, tab sailors compass use karte the.",
+      "mnemonic": "Magnet = Disha batane wala. Hamesha N-S, kabhi E-W nahi."
+    },
+    {
+      "id": "q19",
+      "chapter": 4,
+      "topic": "Magnets",
+      "highYield": false,
+      "question": "A bar magnet is broken into two pieces. What will you find?",
+      "options": [
+        "One piece has only a North pole and the other only a South pole",
+        "Both pieces lose their magnetism",
+        "Each piece has both a North pole and a South pole",
+        "Both pieces have two North poles"
+      ],
+      "answer": 2,
+      "explanation": "Magnet ke poles hamesha jodi mein hote hain. Ek akela North pole ya akela South pole exist hi nahi kar sakta. Isliye todne par har tukde mein dono poles aa jaate hain.",
+      "mnemonic": "Poles ki 'Jodi No. 1'. Akela pole koi nahi hota!"
+    },
+    {
+      "id": "q20",
+      "chapter": 5,
+      "topic": "Measurement of Length",
+      "highYield": true,
+      "question": "What is the SI unit of length?",
+      "options": ["Metre", "Centimetre", "Kilometre", "Millimetre"],
+      "answer": 0,
+      "explanation": "SI units woh standard units hain jo duniya bhar ke countries ne apnaye hain. Length ka SI unit metre hai aur uska symbol m hai. Centimetre, millimetre aur kilometre iske hi bade ya chhote units hain.",
+      "mnemonic": "SI ka Mukhiya = Metre. Symbol 'm'."
+    },
+    {
+      "id": "q21",
+      "chapter": 5,
+      "topic": "Measurement of Length",
+      "highYield": false,
+      "question": "How many centimetres are there in 1 kilometre?",
+      "options": ["1,000", "10,000", "10,00,000", "1,00,000"],
+      "answer": 3,
+      "explanation": "1 km = 1000 m aur 1 m = 100 cm. Toh 1 km = 1000 × 100 = 1,00,000 cm (ek lakh centimetre).",
+      "mnemonic": "km → m (3 zero) → cm (2 zero). 3 + 2 = 5 zero = ek Lakh."
+    },
+    {
+      "id": "q22",
+      "chapter": 5,
+      "topic": "Types of Motion",
+      "highYield": true,
+      "question": "The to-and-fro motion of a swing about a fixed position is called ______ motion.",
+      "options": ["Linear", "Oscillatory", "Circular", "Rotational"],
+      "answer": 1,
+      "explanation": "Jab koi object ek fixed position ke aas-paas idhar-udhar aata-jaata hai, toh use oscillatory motion kehte hain, jaise jhoola ya pendulum. Seedhi line mein chalna linear motion hai aur gol raste par chalna circular motion hai.",
+      "mnemonic": "Oscillate = Jhoolna. Seedha = Linear, Gol = Circular, Idhar-udhar = Oscillatory."
+    },
+    {
+      "id": "q23",
+      "chapter": 5,
+      "topic": "Types of Motion",
+      "highYield": false,
+      "question": "An object is said to be in motion if its ______ changes with time with respect to a reference point.",
+      "options": ["Colour", "Mass", "Position", "Shape"],
+      "answer": 2,
+      "explanation": "Agar kisi fixed point (reference point) ke respect mein object ki position badalti rahe, toh woh object motion mein hai. Jaise ped ke saamne se guzarti bus, uski position ped ke respect mein badal rahi hai.",
+      "mnemonic": "Motion = Position badalna. Reference point = Ped/Khamba (jo khud nahi hilta)."
+    },
+    {
+      "id": "q24",
+      "chapter": 6,
+      "topic": "Materials Around Us",
+      "highYield": true,
+      "question": "Materials that have a shiny appearance are called ______.",
+      "options": ["Lustrous", "Opaque", "Soluble", "Translucent"],
+      "answer": 0,
+      "explanation": "Chamakdaar materials ko lustrous kehte hain, jaise metals. Jo chamakte nahi, unhe non-lustrous kehte hain, jaise lakdi ya kagaz.",
+      "mnemonic": "Lustrous = Luster = Chamak. Metal ki chamak yaad rakho."
+    },
+    {
+      "id": "q25",
+      "chapter": 6,
+      "topic": "Materials Around Us",
+      "highYield": false,
+      "question": "Butter paper lets some light pass through, but we cannot see clearly through it. Such a material is called ______.",
+      "options": ["Transparent", "Opaque", "Lustrous", "Translucent"],
+      "answer": 3,
+      "explanation": "Transparent material mein se sab kuch saaf dikhta hai. Translucent mein se thodi roshni guzarti hai par saaf nahi dikhta, jaise butter paper. Opaque mein se roshni bilkul nahi guzarti, jaise lakdi ya patthar.",
+      "mnemonic": "Transparent = Poora dikhe. Translucent = Thoda-thoda dikhe. Opaque = Kuch nahi dikhe."
+    },
+    {
+      "id": "q26",
+      "chapter": 6,
+      "topic": "Matter",
+      "highYield": true,
+      "question": "Anything that occupies space and has mass is called ______.",
+      "options": ["Energy", "Matter", "Volume", "Property"],
+      "answer": 1,
+      "explanation": "Jo cheez jagah gherti hai aur jiska mass hota hai, woh matter hai. Pani, hawa, patthar, sab matter hain. Roshni aur awaaz matter nahi hain kyunki unka mass nahi hota.",
+      "mnemonic": "Matter = Jagah gher + Vajan rakh. (Space + Mass)."
+    },
+    {
+      "id": "q27",
+      "chapter": 6,
+      "topic": "Matter",
+      "highYield": false,
+      "question": "The space occupied by matter is called its ______.",
+      "options": ["Mass", "Length", "Volume", "Material"],
+      "answer": 2,
+      "explanation": "Matter jitni jagah gherta hai, usse volume kehte hain. Mass batata hai ki object mein kitna matter (maal) hai.",
+      "mnemonic": "Volume = Vistaar (jagah). Mass = Maal ki matra."
+    },
+    {
+      "id": "q28",
+      "chapter": 7,
+      "topic": "Temperature",
+      "highYield": true,
+      "question": "What is the SI unit of temperature?",
+      "options": ["Kelvin", "Degree Celsius", "Degree Fahrenheit", "Metre"],
+      "answer": 0,
+      "explanation": "Temperature ki teen common scales hain: Celsius (°C), Fahrenheit (°F) aur Kelvin (K). In teeno mein se SI unit Kelvin hai.",
+      "mnemonic": "Celsius aur Fahrenheit common hain, par SI ka raja Kelvin hai. K for King."
+    },
+    {
+      "id": "q29",
+      "chapter": 7,
+      "topic": "Temperature",
+      "highYield": false,
+      "question": "The normal temperature of a healthy human adult is taken to be ______.",
+      "options": ["98.6 °C", "37.0 °C", "32.0 °C", "27.0 °C"],
+      "answer": 1,
+      "explanation": "Normal body temperature 37.0 °C maana jaata hai, jo Fahrenheit mein 98.6 °F hota hai. 98.6 °C likha hona galat hai kyunki paani toh 100 °C par ubalta hai!",
+      "mnemonic": "37 °C = 98.6 °F. 'Teen-Saat' Celsius mein, 'Achhanve-Chhe' Fahrenheit mein."
+    },
+    {
+      "id": "q30",
+      "chapter": 7,
+      "topic": "Temperature",
+      "highYield": false,
+      "question": "A laboratory thermometer has 50 divisions between 0 °C and 100 °C. What temperature does each division represent?",
+      "options": ["0.5 °C", "1 °C", "5 °C", "2 °C"],
+      "answer": 3,
+      "explanation": "Total range 100 °C hai aur divisions 50 hain. Toh har division = 100 ÷ 50 = 2 °C.",
+      "mnemonic": "Har division = Total range ÷ Total divisions. 100 ÷ 50 = 2."
+    },
+    {
+      "id": "q31",
+      "chapter": 8,
+      "topic": "States of Water",
+      "highYield": true,
+      "question": "The process of a liquid changing into its vapour is called ______.",
+      "options": ["Condensation", "Filtration", "Evaporation", "Sedimentation"],
+      "answer": 2,
+      "explanation": "Jab paani vapour (bhaap) ban jaata hai, toh use evaporation kehte hain. Kapde sookhna, gile hath sookhna, sab evaporation ke examples hain. Evaporation hone par cooling effect hota hai.",
+      "mnemonic": "Evaporation = Ud jaana. Condensation = Jam jaana (boondein banna)."
+    },
+    {
+      "id": "q32",
+      "chapter": 8,
+      "topic": "States of Water",
+      "highYield": false,
+      "question": "Water droplets form on the outside of a glass of cold water. This is because of ______.",
+      "options": ["Condensation", "Evaporation", "Sieving", "Germination"],
+      "answer": 0,
+      "explanation": "Hawa mein jo water vapour hota hai, woh thande glass se takrakar thanda ho jaata hai aur chhoti boondon mein badal jaata hai. Vapour ka liquid banna condensation hai. Isi tarah vapour se badal bante hain.",
+      "mnemonic": "Thanda glass = Tapakti boondein = Condensation."
+    },
+    {
+      "id": "q33",
+      "chapter": 8,
+      "topic": "Evaporation",
+      "highYield": false,
+      "question": "On which day will wet clothes dry the fastest?",
+      "options": [
+        "A humid day, no wind, clothes folded",
+        "A dry, windy day, clothes spread out",
+        "A humid, windy day, clothes folded",
+        "A cold, still day, clothes bunched up"
+      ],
+      "answer": 1,
+      "explanation": "Evaporation tab tez hota hai jab exposed area zyada ho (kapde phailao), hawa chal rahi ho, aur humidity kam ho (hawa sukhi ho). Dry, windy day par phaile hue kapde sabse jaldi sookhte hain.",
+      "mnemonic": "E-A-H: Exposed area ↑, Air movement ↑, Humidity ↓ = Tez evaporation."
+    },
+    {
+      "id": "q34",
+      "chapter": 8,
+      "topic": "Water Cycle",
+      "highYield": true,
+      "question": "Clouds are made of ______.",
+      "options": [
+        "Smoke from fires",
+        "Only dust particles",
+        "Pure invisible water vapour",
+        "Tiny water droplets formed by condensation of water vapour"
+      ],
+      "answer": 3,
+      "explanation": "Hawa mein jo water vapour hota hai, woh condense hokar chhoti-chhoti boondein banata hai aur yahi clouds ke roop mein dikhti hain. Jab bahut saari boondein mil jaati hain, toh barish, hail ya snow ban kar neeche girti hain. Dharti aur atmosphere ke beech paani ke is chakkar ko water cycle kehte hain.",
+      "mnemonic": "Water cycle = Ud (evaporation) → Jam (condensation) → Gir (rain). 'Ud-Jam-Gir'."
+    },
+    {
+      "id": "q35",
+      "chapter": 9,
+      "topic": "Methods of Separation",
+      "highYield": true,
+      "question": "Separating lighter husk from heavier grains using wind is called ______.",
+      "options": ["Winnowing", "Threshing", "Sieving", "Churning"],
+      "answer": 0,
+      "explanation": "Winnowing mein hawa se halka bhusa ud jaata hai aur bhaari anaaj neeche gir jaata hai. Threshing mein dandiyon ko peetkar anaaj ke daane alag kiye jaate hain.",
+      "mnemonic": "Winnowing = Wind. Threshing = Thapi (peetna)."
+    },
+    {
+      "id": "q36",
+      "chapter": 9,
+      "topic": "Methods of Separation",
+      "highYield": false,
+      "question": "Butter is obtained from curd by the process of ______.",
+      "options": ["Filtration", "Handpicking", "Churning", "Decantation"],
+      "answer": 2,
+      "explanation": "Dahi ko mathne (churn karne) se makkhan alag ho jaata hai. Yeh aaj bhi gaon aur ghar mein chhaas aur makkhan banane ke liye use hota hai.",
+      "mnemonic": "Churn = Mathna. Dahi mathkar Makkhan nikalo."
+    },
+    {
+      "id": "q37",
+      "chapter": 9,
+      "topic": "Methods of Separation",
+      "highYield": true,
+      "question": "Which method is used to get salt back from a salt solution (salt dissolved in water)?",
+      "options": [
+        "Filtration",
+        "Winnowing",
+        "Magnetic separation",
+        "Evaporation"
+      ],
+      "answer": 3,
+      "explanation": "Salt paani mein ghul chuka hai, isliye filter paper use karne se woh alag nahi hoga. Solution ko garam karke paani evaporate kar do, toh salt neeche bach jaata hai.",
+      "mnemonic": "Ghula hua = Paani udao (evaporate). Ghula nahi = Filter karo."
+    },
+    {
+      "id": "q38",
+      "chapter": 9,
+      "topic": "Methods of Separation",
+      "highYield": false,
+      "question": "Insoluble mud particles can be separated from muddy water by ______.",
+      "options": ["Evaporation", "Filtration", "Winnowing", "Churning"],
+      "answer": 1,
+      "explanation": "Filtration mein liquid filter paper ya kapde se guzarti hai aur insoluble solid upar reh jaata hai. Isse insoluble solid components ko liquid se alag kiya ja sakta hai.",
+      "mnemonic": "Insoluble solid + liquid = Filter. 'Chhaan lo!'"
+    },
+    {
+      "id": "q39",
+      "chapter": 9,
+      "topic": "Methods of Separation",
+      "highYield": false,
+      "question": "Heavier insoluble particles settle at the bottom of a liquid, and then the clear liquid is poured out by tilting the vessel. These two steps are called ______.",
+      "options": [
+        "Sedimentation and decantation",
+        "Threshing and winnowing",
+        "Evaporation and condensation",
+        "Sieving and churning"
+      ],
+      "answer": 0,
+      "explanation": "Bhaari insoluble cheez neeche baith jaati hai, isse sedimentation kehte hain. Phir bartan ko tirchha karke upar ka saaf paani nikaal lena decantation hai.",
+      "mnemonic": "Pehle Baithao (sedimentation), phir Bahao (decantation)."
+    },
+    {
+      "id": "q40",
+      "chapter": 10,
+      "topic": "Living Creatures",
+      "highYield": true,
+      "question": "Which of the following is NOT an essential feature of living beings?",
+      "options": [
+        "Responding to stimuli",
+        "Reproducing",
+        "Excreting waste",
+        "Being able to fly"
+      ],
+      "answer": 3,
+      "explanation": "Living beings move karte hain, khate hain, grow karte hain, saans lete hain, waste nikalte hain, stimuli par respond karte hain, reproduce karte hain aur marte hain. Udna zaroori feature nahi hai. Bahut se jeev, jaise machhli ya insaan, nahi udte.",
+      "mnemonic": "MEG-BERRD: Move, Eat, Grow, Breathe, Excrete, Respond, Reproduce, Die."
+    },
+    {
+      "id": "q41",
+      "chapter": 10,
+      "topic": "Life Cycles",
+      "highYield": false,
+      "question": "What is the correct order of the life stages of a mosquito?",
+      "options": [
+        "Egg → Pupa → Larva → Adult",
+        "Egg → Tadpole → Pupa → Adult",
+        "Egg → Larva → Pupa → Adult",
+        "Larva → Egg → Pupa → Adult"
+      ],
+      "answer": 2,
+      "explanation": "Machhar ki life cycle mein pehle egg, phir larva, phir pupa aur aakhir mein adult machhar aata hai. In stages mein body shape aur habitat tak badal jaata hai.",
+      "mnemonic": "E-L-P-A: 'Even Little Pests Annoy'."
+    },
+    {
+      "id": "q42",
+      "chapter": 10,
+      "topic": "Life Cycles",
+      "highYield": true,
+      "question": "What is the correct order of the life stages of a frog?",
+      "options": [
+        "Egg → Froglet → Tadpole → Adult",
+        "Egg → Tadpole → Froglet → Adult",
+        "Tadpole → Egg → Froglet → Adult",
+        "Egg → Larva → Pupa → Adult"
+      ],
+      "answer": 1,
+      "explanation": "Frog ka cycle egg se shuru hota hai, phir tadpole banta hai (jo paani mein rehta hai), phir froglet aur aakhir mein adult frog. Egg → larva → pupa → adult wala order machhar ka hai, frog ka nahi.",
+      "mnemonic": "E-T-F-A: 'Ek Tadpole Frog Aaya'."
+    },
+    {
+      "id": "q43",
+      "chapter": 11,
+      "topic": "Natural Resources",
+      "highYield": true,
+      "question": "Which of the following is a non-renewable natural resource?",
+      "options": ["Sunlight", "Wind", "Coal", "Forests"],
+      "answer": 2,
+      "explanation": "Coal ek fossil fuel hai. Yeh limited quantity mein hai aur reasonable time mein dobara nahi banta, isliye non-renewable hai. Sunlight, wind aur forests natural processes se dobara mil jaate hain.",
+      "mnemonic": "Fossil = Finish ho jaata hai. Coal, petrol, gas = khatam hone wale."
+    },
+    {
+      "id": "q44",
+      "chapter": 11,
+      "topic": "Natural Resources",
+      "highYield": false,
+      "question": "Resources that are renewed or replenished by natural processes within a reasonable period are called ______.",
+      "options": [
+        "Renewable resources",
+        "Non-renewable resources",
+        "Human-made resources",
+        "Artificial resources"
+      ],
+      "answer": 0,
+      "explanation": "Renewable resources prakriti ke processes se wapas mil jaate hain. Jaise sooraj ki roshni roz milti hai aur hawa bhi bani rehti hai. Phir bhi har resource ko samajhdaari se use karna chahiye.",
+      "mnemonic": "Renew = Phir se naya. Sooraj roz naya, hawa roz nayi."
+    },
+    {
+      "id": "q45",
+      "chapter": 11,
+      "topic": "Natural Resources",
+      "highYield": false,
+      "question": "Which of the following is a human-made resource?",
+      "options": ["Soil", "Coal", "Sunlight", "A plastic bottle"],
+      "answer": 3,
+      "explanation": "Jo resources insaan apni zarooraton ke liye banata hai, unhe human-made resources kehte hain, jaise plastic bottle. Mitti, coal aur sunlight prakriti se milte hain, isliye natural resources hain.",
+      "mnemonic": "Prakriti ne di = Natural. Insaan ne banayi = Human-made."
+    },
+    {
+      "id": "q46",
+      "chapter": 12,
+      "topic": "Beyond Earth",
+      "highYield": false,
+      "question": "Groups of stars that appear to form patterns in the sky are called ______.",
+      "options": ["Planets", "Constellations", "Satellites", "Asteroids"],
+      "answer": 1,
+      "explanation": "Aasmaan ko aise hisson mein baanta gaya hai jinhe constellations kehte hain. Inme taaron ke samooh kisi pattern jaise dikhte hain. Jaise Orion shikari jaisa dikhta hai.",
+      "mnemonic": "Constellation = Taaron ki Tasveer. Orion = Shikari."
+    },
+    {
+      "id": "q47",
+      "chapter": 12,
+      "topic": "Beyond Earth",
+      "highYield": true,
+      "question": "The Pole Star appears nearly stationary in the sky and helps us find which direction in the Northern hemisphere?",
+      "options": ["East", "West", "North", "South"],
+      "answer": 2,
+      "explanation": "Pole Star (Polaris) sky mein lagbhag ek hi jagah par dikhta hai, aur woh North direction ki taraf hota hai. Isse Northern hemisphere mein raat ko disha pata chal jaati hai. Ise dhoondne ke liye Big Dipper ki madad li jaati hai.",
+      "mnemonic": "Pole Star = Uttar ka Taara. Pole = North Pole jaisa."
+    },
+    {
+      "id": "q48",
+      "chapter": 12,
+      "topic": "Beyond Earth",
+      "highYield": false,
+      "question": "The Sun is a ______.",
+      "options": ["Star", "Planet", "Satellite", "Comet"],
+      "answer": 0,
+      "explanation": "Sun ek star hai jo heat aur light khud paida karta hai. Planet ek bada, lagbhag gol object hota hai jo Sun ke chaaron taraf ghoomta hai.",
+      "mnemonic": "Sun = Sitara. S for Sun, S for Star."
+    },
+    {
+      "id": "q49",
+      "chapter": 12,
+      "topic": "Beyond Earth",
+      "highYield": true,
+      "question": "The Moon revolves around the Earth in nearly ______.",
+      "options": ["1 day", "7 days", "365 days", "27 days"],
+      "answer": 3,
+      "explanation": "Moon Earth ka natural satellite hai aur Earth ka ek chakkar lagbhag 27 din mein poora karta hai. Earth ko Sun ka ek chakkar lagane mein lagbhag 1 saal (365 din) lagta hai.",
+      "mnemonic": "Moon ka chakkar = lagbhag ek mahina (27 din). Earth ka chakkar = ek saal."
+    },
+    {
+      "id": "q50",
+      "chapter": 12,
+      "topic": "Beyond Earth",
+      "highYield": false,
+      "question": "In order of increasing distance from the Sun, which planet comes right after Mars?",
+      "options": ["Saturn", "Jupiter", "Venus", "Mercury"],
+      "answer": 1,
+      "explanation": "Sun se badhti doori ke order mein planets hain: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Mars ke baad Jupiter aata hai.",
+      "mnemonic": "My Very Educated Mother Just Served Us Noodles → Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    }
+  ]
+}

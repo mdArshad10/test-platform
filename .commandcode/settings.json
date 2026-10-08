@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(bun:*)",
+      "Shell(for m in src/features/quiz/components/quiz-page.tsx src/features/quiz/components/result-page.tsx src/features/quiz/components/intro-page.tsx src/features/quiz/store/quiz.store.ts; do code=$(curl -s -o /tmp/out.js -w \"%{http_code}\" \"http://localhost:5173/$m\"); echo \"$m -> $code\"; grep -i \"error\\|failed\" /tmp/out.js | head -3; done)",
+      "Shell(command -v playwright; npx --no-install playwright --version 2>/dev/null; ls ~/.cache/ms-playwright 2>/dev/null; command -v chromium chromium-browser google-chrome 2>/dev/null; echo \"---\"; ls /home/pasdt/.commandcode/skills 2>/dev/null | head)",
+      "Shell(ls:*)",
+      "Shell(python3 -c import playwright; print(playwright.__file__) 2 >& 1)",
+      "Shell(CHROME=~/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome; \"$CHROME\" --headless=new --no-sandbox --disable-gpu --virtual-time-budget=6000 --dump-dom http://localhost:5173/ 2>/dev/null > /tmp/intro.html; echo \"exit=$?\"; wc -c /tmp/intro.html; grep -o \"Start test\\|General Knowledge Mock Test\\|Instructions\\|auto-submits\" /tmp/intro.html | sort -u)",
+      "Shell(CHROME=~/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome; rm -rf /tmp/cdp-profile; \"$CHROME\" --headless=new --no-sandbox --disable-gpu --remote-debugging-port=9222 --user-data-dir=/tmp/cdp-profile about:blank > /tmp/chrome.log 2>&1 & echo \"chrome pid $!\")",
+      "Shell(node /tmp/commandcode-1000/-home-pasdt-office-Tests-Test-based-platform/026b6589-0685-4240-9bc8-215da3131621/scratchpad/e2e.mjs)",
+      "Shell(node /tmp/commandcode-1000/-home-pasdt-office-Tests-Test-based-platform/026b6589-0685-4240-9bc8-215da3131621/scratchpad/e2e2.mjs)",
+      "Shell(node /tmp/commandcode-1000/-home-pasdt-office-Tests-Test-based-platform/026b6589-0685-4240-9bc8-215da3131621/scratchpad/e2e3.mjs)",
+      "Shell(pkill -f \"cdp-profile\" 2>/dev/null; sleep 1; echo \"--- port 9222 ---\"; (curl -s -m 2 http://127.0.0.1:9222/json/version >/dev/null && echo \"still up\") || echo \"down\"; echo \"--- port 5173 ---\"; (curl -s -m 2 http://127.0.0.1:5173/ >/dev/null && echo \"still up\") || echo \"down\")",
+      "Shell(pkill:*)",
+      "Shell(sleep:*)",
+      "Shell(curl -s -m 2 http://127.0.0.1:9222/json/version > /dev/null)",
+      "Shell(curl -s -m 2 http://127.0.0.1:5173/ > /dev/null)",
+      "Shell(node -e JSON.parse(require('fs').readFileSync('src/features/quiz/data/data.json','utf8')); console.log('data.json OK'))"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
